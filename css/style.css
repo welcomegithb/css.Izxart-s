@@ -271,7 +271,7 @@
   button {
     border: none;
     border-radius: 20px;
-    background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background: linear-gradient(32deg, #03a9f4, #4304d7, #00087c, #03a9f4);
     transition: all 1.5s ease;
     font-family: 'Ropa Sans', sans-serif;
     font-weight: bold;
@@ -304,7 +304,32 @@
     line-height: 1.2;
     color: var(--text-color);
   }
+
+  /*latese-posts*/
+
+  .latese-posts{
+    padding-top: 5.3rem;
+    padding-bottom: 9.1rem;
+    color: var(--nav-color);
+  }
+
+  .latese-posts__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8.2rem;
+  }
   
+  .latese-posts__title{
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 1.2;
+  }
+
+  .latese-posts__title span{
+    color: var(--hover-color);
+  }
+
   /* MEDIA */
   @media screen and (max-width: 979px) {
     .site-logo {
