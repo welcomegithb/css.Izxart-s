@@ -342,6 +342,7 @@ button span:hover {
 
 .latese-posts__list {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 }
 
@@ -471,6 +472,8 @@ button span:hover {
 .form__btn:active {
 	opacity: 0.6;
 }
+
+/*site-footer start*/
 
 .site__footer {
 	background-color: var(--footer-bg);
